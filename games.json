@@ -1,0 +1,13 @@
+{
+  "games": [
+    {
+      "appid": "3764200",
+      "name": "Resident Evil Requiem",
+      "zip": "Games/3764200.zip",
+      "description": "Resident Evil Requiem (RE9) manifest & lua dosyası",
+      "release_date": "2026-02-27",
+      "publisher": "CAPCOM Co., Ltd.",
+      "notes": "Steam App ID: 3764200 - Survival horror, yeni Resident Evil oyunu"
+    }
+  ]
+}
