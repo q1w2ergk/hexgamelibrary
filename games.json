@@ -8,6 +8,15 @@
       "release_date": "2026-02-27",
       "publisher": "CAPCOM Co., Ltd.",
       "notes": "Steam App ID: 3764200 - Survival horror, yeni Resident Evil oyunu"
+    },
+    {
+      "appid": "239140",
+      "name": "Dying Light",
+      "zip": "Games/239140.zip",
+      "description": "Dying Light manifest & lua dosyası",
+      "release_date": "2015-01-27",
+      "publisher": "Techland",
+      "notes": "Steam App ID: 239140 - Parkur ve zombi temalı aksiyon-hayatta kalma oyunu"
     }
   ]
 }
