@@ -17,6 +17,15 @@
       "release_date": "2015-01-27",
       "publisher": "Techland",
       "notes": "Steam App ID: 239140 - Parkur ve zombi temalı aksiyon-hayatta kalma oyunu"
+    },
+    {
+      "appid": "1903340",
+      "name": "Expedition 33",
+      "zip": "Games/Expedition33.zip",
+      "description": "Expedition 33 manifest & lua dosyası",
+      "release_date": "2025",
+      "publisher": "Sandfall Interactive",
+      "notes": "Kıyamet sonrası fantezi dünyasında geçen sıra tabanlı RPG"
     }
   ]
 }
