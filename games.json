@@ -20,12 +20,21 @@
     },
     {
       "appid": "3008670",
-      "name": "Poopy Playtime – Chapter 4",
+      "name": "Poppy Playtime – Chapter 4",
       "zip": "Games/3008670.zip",
-      "description": "Poopy Playtime Chapter 4 manifest & lua dosyası",
+      "description": "Poppy Playtime Chapter 4 manifest & lua dosyası",
       "release_date": "TBA",
       "publisher": "Mob Entertainment",
-      "notes": "Steam App ID: 3008670 - Korku ve bulmaca temalı Poopy Playtime serisinin 4. bölümü"
+      "notes": "Steam App ID: 3008670 - Korku ve bulmaca temalı Poppy Playtime serisinin 4. bölümü"
+    },
+    {
+      "appid": "2050650",
+      "name": "Resident Evil 4",
+      "zip": "Games/2050650.zip",
+      "description": "Resident Evil 4 Remake manifest & lua dosyası",
+      "release_date": "2023-03-24",
+      "publisher": "CAPCOM Co., Ltd.",
+      "notes": "Steam App ID: 2050650 - Resident Evil 4 Remake, aksiyon ve survival horror"
     }
   ]
 }
