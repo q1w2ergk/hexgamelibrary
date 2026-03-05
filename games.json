@@ -35,6 +35,15 @@
       "release_date": "2023-03-24",
       "publisher": "CAPCOM Co., Ltd.",
       "notes": "Steam App ID: 2050650 - Resident Evil 4 Remake, aksiyon ve survival horror"
+    },
+    {
+      "appid": "3008130",
+      "name": "Dying Light: The Beast",
+      "zip": "Games/3008130.zip",
+      "description": "Dying Light: The Beast manifest & lua dosyası",
+      "release_date": "2025",
+      "publisher": "Techland",
+      "notes": "Steam App ID: 3008130 - Dying Light evreninde geçen yeni zombi hayatta kalma oyunu"
     }
   ]
 }
