@@ -79,6 +79,11 @@
             "appid": 1817190,
             "name": "Marvel’s Spider-Man: Miles Morales",
             "zip": "Games/1817190.zip"
+        },
+        {
+            "appid": 1817070,
+            "name": "Oyun 1817070",
+            "zip": "Games/1817070.zip"
         }
     ]
 }
