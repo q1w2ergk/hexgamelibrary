@@ -84,6 +84,11 @@
             "appid": 1817070,
             "name": "Oyun 1817070",
             "zip": "Games/1817070.zip"
+        },
+        {
+            "appid": 2651280,
+            "name": "Marvel's Spider-Man 2",
+            "zip": "Games/2651280.zip"
         }
     ]
 }
