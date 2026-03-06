@@ -45,30 +45,4 @@
             "publisher": "Techland",
             "notes": "Steam App ID: 3008130 - Dying Light evreninde geçen yeni zombi hayatta kalma oyunu"
         },
-        {
-            "appid": 730,
-            "name": "Oyun 730 (Bot ile eklendi)",
-            "zip": "Games/730.zip"
-        },
-        {
-            "appid": 271590,
-            "name": "Oyun 271590 (Bot ile eklendi)",
-            "zip": "Games/271590.zip"
-        },
-        {
-            "appid": 2322010,
-            "name": "Oyun 2322010 (Bot ile eklendi)",
-            "zip": "Games/2322010.zip"
-        },
-        {
-            "appid": 252490,
-            "name": "Checking your browser…",
-            "zip": "Games/252490.zip"
-        },
-        {
-            "appid": 431960,
-            "name": "Wallpaper Engine",
-            "zip": "Games/431960.zip"
-        }
-    ]
-}
+       
