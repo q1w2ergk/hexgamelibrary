@@ -54,6 +54,11 @@
             "appid": 534380,
             "name": "Dying Light 2 Stay Human: Reloaded Edition",
             "zip": "Games/534380.zip"
+        },
+        {
+            "appid": 1903340,
+            "name": "Clair Obscur: Expedition 33",
+            "zip": "Games/1903340.zip"
         }
     ]
 }
