@@ -74,6 +74,11 @@
             "appid": 418370,
             "name": "Resident Evil 7 Biohazard",
             "zip": "Games/418370.zip"
+        },
+        {
+            "appid": 1817190,
+            "name": "Marvel’s Spider-Man: Miles Morales",
+            "zip": "Games/1817190.zip"
         }
     ]
 }
