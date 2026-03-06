@@ -69,6 +69,11 @@
             "appid": 1943950,
             "name": "Escape the Backrooms",
             "zip": "Games/1943950.zip"
+        },
+        {
+            "appid": 418370,
+            "name": "Resident Evil 7 Biohazard",
+            "zip": "Games/418370.zip"
         }
     ]
 }
