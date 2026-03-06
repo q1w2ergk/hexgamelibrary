@@ -64,6 +64,11 @@
             "appid": 739630,
             "name": "Phasmophobia",
             "zip": "Games/739630.zip"
+        },
+        {
+            "appid": 1943950,
+            "name": "Escape the Backrooms",
+            "zip": "Games/1943950.zip"
         }
     ]
 }
