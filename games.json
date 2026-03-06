@@ -59,6 +59,11 @@
             "appid": 2322010,
             "name": "Oyun 2322010 (Bot ile eklendi)",
             "zip": "Games/2322010.zip"
+        },
+        {
+            "appid": 252490,
+            "name": "Checking your browser…",
+            "zip": "Games/252490.zip"
         }
     ]
 }
