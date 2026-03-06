@@ -64,6 +64,11 @@
             "appid": 252490,
             "name": "Checking your browser…",
             "zip": "Games/252490.zip"
+        },
+        {
+            "appid": 431960,
+            "name": "Wallpaper Engine",
+            "zip": "Games/431960.zip"
         }
     ]
 }
