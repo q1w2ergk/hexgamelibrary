@@ -49,6 +49,11 @@
             "appid": 1593500,
             "name": "God of War",
             "zip": "Games/1593500.zip"
+        },
+        {
+            "appid": 534380,
+            "name": "Dying Light 2 Stay Human: Reloaded Edition",
+            "zip": "Games/534380.zip"
         }
     ]
 }
