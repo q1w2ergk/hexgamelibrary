@@ -59,6 +59,11 @@
             "appid": 1903340,
             "name": "Clair Obscur: Expedition 33",
             "zip": "Games/1903340.zip"
+        },
+        {
+            "appid": 739630,
+            "name": "Phasmophobia",
+            "zip": "Games/739630.zip"
         }
     ]
 }
