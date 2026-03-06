@@ -89,6 +89,11 @@
             "appid": 2651280,
             "name": "Marvel's Spider-Man 2",
             "zip": "Games/2651280.zip"
+        },
+        {
+            "appid": 2599300,
+            "name": "Dead Signal",
+            "zip": "Games/2599300.zip"
         }
     ]
 }
