@@ -49,6 +49,11 @@
             "appid": 730,
             "name": "Oyun 730 (Bot ile eklendi)",
             "zip": "Games/730.zip"
+        },
+        {
+            "appid": 271590,
+            "name": "Oyun 271590 (Bot ile eklendi)",
+            "zip": "Games/271590.zip"
         }
     ]
 }
