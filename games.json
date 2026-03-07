@@ -1,107 +1,49 @@
-[
+{
+  "games": [
     {
-        "appid": "3764200",
-        "name": "Resident Evil Requiem",
-        "zip": "Games/3764200.zip",
-        "description": "Resident Evil Requiem (RE9) manifest & lua dosyası",
-        "release_date": "2026-02-27",
-        "publisher": "CAPCOM Co., Ltd.",
-        "notes": "Steam App ID: 3764200 - Survival horror, yeni Resident Evil oyunu"
+      "appid": "3764200",
+      "name": "Resident Evil Requiem",
+      "zip": "Games/3764200.zip",
+      "description": "Resident Evil Requiem (RE9) manifest & lua dosyası",
+      "release_date": "2026-02-27",
+      "publisher": "CAPCOM Co., Ltd.",
+      "notes": "Steam App ID: 3764200 - Survival horror, yeni Resident Evil oyunu"
     },
     {
-        "appid": "239140",
-        "name": "Dying Light",
-        "zip": "Games/239140.zip",
-        "description": "Dying Light manifest & lua dosyası",
-        "release_date": "2015-01-27",
-        "publisher": "Techland",
-        "notes": "Steam App ID: 239140 - Parkur ve zombi temalı aksiyon-hayatta kalma oyunu"
+      "appid": "239140",
+      "name": "Dying Light",
+      "zip": "Games/239140.zip",
+      "description": "Dying Light manifest & lua dosyası",
+      "release_date": "2015-01-27",
+      "publisher": "Techland",
+      "notes": "Steam App ID: 239140 - Parkur ve zombi temalı aksiyon-hayatta kalma oyunu"
     },
     {
-        "appid": "3008670",
-        "name": "Poppy Playtime – Chapter 4",
-        "zip": "Games/3008670.zip",
-        "description": "Poppy Playtime Chapter 4 manifest & lua dosyası",
-        "release_date": "TBA",
-        "publisher": "Mob Entertainment",
-        "notes": "Steam App ID: 3008670 - Korku ve bulmaca temalı Poppy Playtime serisinin 4. bölümü"
+      "appid": "3008670",
+      "name": "Poppy Playtime – Chapter 4",
+      "zip": "Games/3008670.zip",
+      "description": "Poppy Playtime Chapter 4 manifest & lua dosyası",
+      "release_date": "TBA",
+      "publisher": "Mob Entertainment",
+      "notes": "Steam App ID: 3008670 - Korku ve bulmaca temalı Poppy Playtime serisinin 4. bölümü"
     },
     {
-        "appid": "2050650",
-        "name": "Resident Evil 4",
-        "zip": "Games/2050650.zip",
-        "description": "Resident Evil 4 Remake manifest & lua dosyası",
-        "release_date": "2023-03-24",
-        "publisher": "CAPCOM Co., Ltd.",
-        "notes": "Steam App ID: 2050650 - Resident Evil 4 Remake, aksiyon ve survival horror"
+      "appid": "2050650",
+      "name": "Resident Evil 4",
+      "zip": "Games/2050650.zip",
+      "description": "Resident Evil 4 Remake manifest & lua dosyası",
+      "release_date": "2023-03-24",
+      "publisher": "CAPCOM Co., Ltd.",
+      "notes": "Steam App ID: 2050650 - Resident Evil 4 Remake, aksiyon ve survival horror"
     },
     {
-        "appid": "3008130",
-        "name": "Dying Light: The Beast",
-        "zip": "Games/3008130.zip",
-        "description": "Dying Light: The Beast manifest & lua dosyası",
-        "release_date": "2025",
-        "publisher": "Techland",
-        "notes": "Steam App ID: 3008130 - Dying Light evreninde geçen yeni zombi hayatta kalma oyunu"
-    },
-    {
-        "appid": 1593500,
-        "name": "God of War",
-        "zip": "Games/1593500.zip"
-    },
-    {
-        "appid": 534380,
-        "name": "Dying Light 2 Stay Human: Reloaded Edition",
-        "zip": "Games/534380.zip"
-    },
-    {
-        "appid": 1903340,
-        "name": "Clair Obscur: Expedition 33",
-        "zip": "Games/1903340.zip"
-    },
-    {
-        "appid": 739630,
-        "name": "Phasmophobia",
-        "zip": "Games/739630.zip"
-    },
-    {
-        "appid": 1943950,
-        "name": "Escape the Backrooms",
-        "zip": "Games/1943950.zip"
-    },
-    {
-        "appid": 418370,
-        "name": "Resident Evil 7 Biohazard",
-        "zip": "Games/418370.zip"
-    },
-    {
-        "appid": 1817190,
-        "name": "Marvel’s Spider-Man: Miles Morales",
-        "zip": "Games/1817190.zip"
-    },
-    {
-        "appid": 1817070,
-        "name": "Oyun 1817070",
-        "zip": "Games/1817070.zip"
-    },
-    {
-        "appid": 2651280,
-        "name": "Marvel's Spider-Man 2",
-        "zip": "Games/2651280.zip"
-    },
-    {
-        "appid": 2599300,
-        "name": "Dead Signal",
-        "zip": "Games/2599300.zip"
-    },
-    {
-        "appid": 1450830,
-        "name": "At Dead Of Night",
-        "zip": "Games/1450830.zip"
-    },
-    {
-        "appid": 1450830,
-        "name": "Oyun 1450830",
-        "zip": "Games/1450830.zip"
+      "appid": "3008130",
+      "name": "Dying Light: The Beast",
+      "zip": "Games/3008130.zip",
+      "description": "Dying Light: The Beast manifest & lua dosyası",
+      "release_date": "2025",
+      "publisher": "Techland",
+      "notes": "Steam App ID: 3008130 - Dying Light evreninde geçen yeni zombi hayatta kalma oyunu"
     }
-]
+  ]
+}
