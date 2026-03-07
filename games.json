@@ -94,6 +94,11 @@
             "appid": 2599300,
             "name": "Dead Signal",
             "zip": "Games/2599300.zip"
+        },
+        {
+            "appid": 1450830,
+            "name": "At Dead Of Night",
+            "zip": "Games/1450830.zip"
         }
     ]
 }
