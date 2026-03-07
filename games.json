@@ -59,6 +59,11 @@
             "appid": 21690,
             "name": "Resident Evil 5",
             "zip": "Games/21690.zip"
+        },
+        {
+            "appid": 284160,
+            "name": "BeamNG.drive",
+            "zip": "Games/284160.zip"
         }
     ]
 }
