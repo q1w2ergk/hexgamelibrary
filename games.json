@@ -54,6 +54,11 @@
             "appid": 1196590,
             "name": "Resident Evil Village",
             "zip": "Games/1196590.zip"
+        },
+        {
+            "appid": 21690,
+            "name": "Resident Evil 5",
+            "zip": "Games/21690.zip"
         }
     ]
 }
