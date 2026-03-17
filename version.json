@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0",
+  "notes": "- İlk sürüm yayınlandı\n- Oyun kurulum sistemi eklendi\n- DLC yönetimi eklendi\n- +18 içerik filtresi eklendi",
+  "download": "https://github.com/q1w2ergk/hexgamelibrary/releases/download/v1.0.0/HexLauncher-Setup-1.0.0.exe",
+  "mandatory": false
+}
