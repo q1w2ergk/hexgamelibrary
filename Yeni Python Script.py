@@ -1,52 +1,68 @@
 import os
+import shutil
 import subprocess
+import time
 
-def git_batch_push_bypass(batch_size=3):
-    target_folder = "Bypass"
-    
-    if not os.path.exists(target_folder):
-        print(f"❌ Hata: '{target_folder}' klasörü bulunamadı!")
+# --- AYARLAR ---
+# Kaynak: Zipleri aldığın yer
+kaynak_dizini = r"C:\Users\koyun\Documents\RedXFreeSteamInstaller-main\Bypass"
+
+# Hedef: Zipleri taşıdığın alt klasör
+hedef_dizini = r"C:\Users\koyun\Documents\GitHub\hexgamelibrary\hexgamelibrary\Bypass"
+
+# Git Reposunun Ana Dizini: .git klasörü muhtemelen buradadır
+# Eğer yine hata verirse bu yolu r"C:\Users\koyun\Documents\GitHub\hexgamelibrary" olarak dene
+repo_yolu = r"C:\Users\koyun\Documents\GitHub\hexgamelibrary\hexgamelibrary"
+# ---------------
+
+def git_islemlerini_yap():
+    try:
+        print(f"Git: Değişiklikler işleniyor...")
+        
+        # 1. Add
+        subprocess.run(["git", "add", "."], cwd=repo_yolu, check=True)
+        
+        # 2. Commit
+        # --allow-empty ekledim ki eğer değişiklik yoksa script takılmasın
+        subprocess.run(["git", "commit", "-m", "grup1 eklendi", "--allow-empty"], cwd=repo_yolu, check=True)
+        
+        # 3. Push
+        print("Git: Push işlemi yapılıyor...")
+        subprocess.run(["git", "push", "origin", "main", "--force"], cwd=repo_yolu, check=True)
+        
+        print("İşlem Başarılı.\n")
+    except subprocess.CalledProcessError as e:
+        print(f"Git hatası: {e}")
+
+def dosya_tasi_ve_islem_yap():
+    if not os.path.exists(kaynak_dizini):
+        print(f"Kaynak bulunamadı: {kaynak_dizini}")
         return
 
-    # ÖNCE: Dosya isimlerini değiştirerek GitHub'ın takibini kıralım
-    # (Eğer dosya isminde zaten '_v' varsa tekrar eklemez)
-    for f in os.listdir(target_folder):
-        if f.endswith('.zip') and '_v' not in f:
-            old_path = os.path.join(target_folder, f)
-            new_name = f.replace('.zip', '_v.zip')
-            new_path = os.path.join(target_folder, new_name)
-            os.rename(old_path, new_path)
-
-    # Yeni isimli dosyaları listele
-    all_zips = [os.path.join(target_folder, f) for f in os.listdir(target_folder) if f.endswith('.zip')]
+    dosyalar = [f for f in os.listdir(kaynak_dizini) if f.endswith('.zip')]
     
-    total_files = len(all_zips)
-    print(f"🚀 Toplam {total_files} zip dosyası (yeniden isimlendirildi) bulundu. {batch_size}'erli gruplanıyor...")
+    if not dosyalar:
+        print("Klasörde .zip dosyası kalmadı.")
+        return
 
-    for i in range(0, total_files, batch_size):
-        batch = all_zips[i : i + batch_size]
-        grup_no = (i // batch_size) + 1
+    if not os.path.exists(hedef_dizini):
+        os.makedirs(hedef_dizini)
+
+    for dosya_adi in dosyalar:
+        kaynak_yolu = os.path.join(kaynak_dizini, dosya_adi)
+        hedef_yolu = os.path.join(hedef_dizini, dosya_adi)
         
-        print(f"\n--- Grup {grup_no} İşleniyor ---")
+        print(f"Sıradaki: {dosya_adi}")
         
-        for file_path in batch:
-            subprocess.run(["git", "add", file_path], capture_output=True)
-        
-        commit_message = f"Grup {grup_no} yuklendi"
-        result = subprocess.run(["git", "commit", "-m", commit_message], capture_output=True)
-        
-        if result.returncode == 0:
-            print(f"📦 Grup {grup_no} commit edildi. Push yapılıyor...")
-            # FORCE ekleyerek gönderiyoruz
-            push_result = subprocess.run(["git", "push", "origin", "main", "--force"], capture_output=True, text=True)
-            
-            if push_result.returncode == 0:
-                print(f"✅ Grup {grup_no} başarıyla gönderildi!")
-            else:
-                print(f"❌ Grup {grup_no} hatası: {push_result.stderr}")
-                break
-        else:
-            print(f"⚠️ Grup {grup_no} değişikliği yok.")
+        try:
+            shutil.move(kaynak_yolu, hedef_yolu)
+            git_islemlerini_yap()
+            # GitHub'ın spam olarak algılamaması için 2 saniye bekle
+            time.sleep(2)
+        except Exception as e:
+            print(f"Hata: {e}")
 
 if __name__ == "__main__":
-    git_batch_push_bypass(3)
+    # ÖNEMLİ: Eğer .git klasörü bir üst dizindeyse kodu çalıştırmadan önce 
+    # repo_yolu değişkenini bir üst klasöre ayarla.
+    dosya_tasi_ve_islem_yap()
